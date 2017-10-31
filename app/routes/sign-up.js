@@ -1,4 +1,5 @@
 import Route from '@ember/routing/route';
+<<<<<<< HEAD
 import { inject as service } from '@ember/service';
 
 export default Route.extend({
@@ -15,4 +16,8 @@ export default Route.extend({
       await session.authenticate('authenticator:oauth2', email, password);
     }
   }
+=======
+
+export default Route.extend({
+>>>>>>> 47be1e8... Generates a sign-up route
 });
